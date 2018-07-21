@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_padding">16dp</dimen>
+    <dimen name="card_elevation">4dp</dimen>
+    <dimen name="imageview_size">300dp</dimen>
+    <dimen name="itemview_size">100dp</dimen>
+    <dimen name="textview_size">100dp</dimen>
+    <dimen name="text_size_title">25sp</dimen>
+    <dimen name="text_size_description">15sp</dimen>
+    <dimen name="text_size_headline">50sp</dimen>
+    <dimen name="zero_dp">0dp</dimen>
+    <dimen name="recyclerview_height">200dp</dimen>
+    <dimen name="recyclerview_width">200dp</dimen>
+    <dimen name="view_padding">1dp</dimen>
+
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/newssource_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Source"
+        android:textSize="@dimen/text_size_headline"
+        android:textColor="@color/colorBlack"
+        android:background="@color/colorBackground"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/view_padding"
+        android:background="@color/colorBlack"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view_news"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/view_padding"
+        android:background="@color/colorBackground"
+        >
+
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>
